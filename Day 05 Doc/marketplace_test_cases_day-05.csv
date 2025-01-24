@@ -1,0 +1,75 @@
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,MARKETPLACE BUILDER ,,,,,
+,,,TEST-CASES REPORT,,,,,
+,,,By Muhammad Nabeel,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Test login and signup functionality.,"1. Attempt login with correct credentials.
+2. Attempt login with incorrect credentials.
+3. Test the signup process with valid and invalid data.","Login succeeds with correct credentials and fails with incorrect ones.
+Signup succeeds with valid data.",Authentication works as intended.,Passed,High,MUHAMMAD NABEEL,Authentication is secure and functional.
+TC002,Validate the product listing page.,"1. Open the products page.
+2. Verify that products are displayed with correct titles, images, prices, and availability.
+3. Check pagination if applicable.",Products display correctly with all relevant details.,Products displayed as expected.,Passed,Low,MUHAMMAD NABEEL,No issues detected.
+TC003,Validate API error handling for product data fetch.,"1. Disconnect the API or simulate failure.
+2. Refresh the products page.",An error notification is displayed on the UI.,Displays appropriate error notification.,Passed,Medium,MUHAMMAD NABEEL,Handles errors gracefully.
+TC004,Verify the functionality of adding items to the cart.,"1. Add a product to the cart.
+2. Navigate to the cart page and verify the item is listed.
+3. Update the quantity or remove the item from the cart.",Cart updates accurately based on user actions.,Cart functions as expected.,Passed,Medium,MUHAMMAD NABEEL,Executed successfully.
+TC005,Validate the checkout process.,"1. Proceed to checkout.
+2. Enter delivery and payment details.
+3. Confirm the order.","Order is successfully placed, and confirmation is displayed.",Order placement works as expected.,Passed,High,MUHAMMAD NABEEL,Checkout flow is functional.
+TC006,Validate the functionality of the search bar.,"1. Enter a keyword in the search bar.
+2. Verify if the correct products are listed.
+3. Test for invalid searches or no results.",Displays items matching the search criteria or shows a 'No results found' message.,Search functionality is accurate.,Passed,High,MUHAMMAD NABEEL,No issues found.
+TC007,Verify responsiveness across devices.,"1. Inspect the page.
+2. Simulate different device viewports (mobile, tablet, desktop).
+3. Verify UI elements adapt to screen sizes.",Content adjusts seamlessly for different screen sizes.,Fully responsive UI.,Passed,Medium,MUHAMMAD NABEEL,Fully responsive design confirmed.
+TC008,Verify individual product detail pages.,"1. Open the products page.
+2. Click on a product to open its detail page.
+3. Verify all details (e.g., image, description, price, stock).",Product detail page loads with accurate information.,Detail page works as expected.,Passed,Low,MUHAMMAD NABEEL,Works perfectly.
+TC009,Test the 'Add to Wishlist' functionality.,"1. Navigate to a product page.
+2. Click on the 'Add to Wishlist' button.
+3. Go to the wishlist page and verify that the product is added.",Product is successfully added to the wishlist.,Wishlist functionality works as expected.,Passed,Medium,MUHAMMAD NABEEL,All flows are functional.
+TC010,Test if the user can view their order history.,"1. Log in to a user account.
+2. Navigate to the order history section.
+3. Verify the list of previous orders.",User can view previous orders with accurate details.,Order history displays correctly.,Passed,Medium,MUHAMMAD NABEEL,Order history functionality confirmed.
+TC011,Test if the user can filter products by category.,"1. Open the products page.
+2. Apply filters (e.g., category, price range).
+3. Verify that the filtered products match the selected criteria.",Products displayed match the applied filters.,Filter functionality works correctly.,Passed,Medium,MUHAMMAD NABEEL,Filter mechanism functions as expected.
+TC012,Test the newsletter subscription feature.,"1. Navigate to the newsletter subscription section.
+2. Enter a valid email address and subscribe.
+3. Verify the confirmation message.",A confirmation email is sent and a success message appears.,Newsletter subscription works as expected.,Passed,Low,MUHAMMAD NABEEL,No issues found during subscription.
+TC013,Verify product reviews can be added by logged-in users.,"1. Log in to a user account.
+2. Navigate to a product page.
+3. Add a review with a rating and comment.
+4. Verify the review is displayed on the product page.",The review is successfully posted and displayed.,Review posting functionality is accurate.,Passed,Medium,MUHAMMAD NABEEL,Review system is working as intended.
+TC014,Verify admin access and functionality for adding products.,"1. Log in with admin credentials.
+2. Navigate to the admin dashboard.
+3. Add a new product with all required details (title, price, description, etc.).",Product is successfully added to the catalog.,Product addition functionality works properly.,Passed,High,MUHAMMAD NABEEL,Admin functionality tested successfully.
+TC015,Test if the discount/coupon code works during checkout.,"1. Add a product to the cart.
+2. Enter a valid coupon code at checkout.
+3. Verify that the discount is applied correctly.",The coupon code applies the correct discount to the total.,Coupon code functionality works as expected.,Passed,High,MUHAMMAD NABEEL,No issues with coupon code.
+TC016,Test if users can update their profile information.,"1. Log in to a user account.
+2. Navigate to the profile settings.
+3. Update name, email, and password.
+4. Save changes and verify updates.",Profile details are successfully updated.,Profile update works as expected.,Passed,Medium,MUHAMMAD NABEEL,Profile editing functionality confirmed.
+TC017,Test payment gateway integration for successful transaction.,"1. Add a product to the cart.
+2. Proceed to checkout and enter payment details.
+3. Complete the payment and verify the confirmation.","Payment is successfully processed, and order confirmation is displayed.",Payment processing and confirmation work correctly.,Passed,High,MUHAMMAD NABEEL,Payment gateway functions as intended.
+TC018,Test the 'Forgot Password' functionality.,"1. Go to the login page.
+2. Click on 'Forgot Password'.
+3. Enter a registered email address and request a reset link.
+4. Follow the reset link to change the password.",Password reset process works correctly and the new password is accepted.,Password reset flow operates as expected.,Passed,High,MUHAMMAD NABEEL,Password reset functionality tested successfully.
