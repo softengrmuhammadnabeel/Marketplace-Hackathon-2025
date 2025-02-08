@@ -1,5 +1,5 @@
 # 🌟 Day 1 - Laying the Foundation for Your Marketplace Journey
-
+ 
 ## 📋 Objective
 - 🚀 Understand **E-Commerce**, **Q-Commerce**, and **Rental E-Commerce** models.
 - 🎯 Define your **marketplace type**, set **business goals**, and create a **data schema**.
