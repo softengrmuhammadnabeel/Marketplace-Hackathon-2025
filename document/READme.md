@@ -1,6 +1,6 @@
 # 🛠️ Day 2 - Planning the Technical Foundation
 
-## 📋 Objective
+## 📋 Objective 
 - Transition from **business planning** (Day 1) to **technical preparation**.  
 - Develop a high-level technical plan, including **system architecture**, **API requirements**, and **workflows**.  
 - Align technical solutions with business goals to build a scalable and effective marketplace.
